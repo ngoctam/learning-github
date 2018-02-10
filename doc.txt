@@ -8,7 +8,7 @@ Basic Git Workflow Life Cycle
         Repository (.git folder)
     Remote
 
-Tao git:
+Create git:
     git init
     git init local-project
 
@@ -25,13 +25,13 @@ Git Config:
     
     git config --global --list
     
-Tao 1 file:
+Create 1 file:
     touch index.html
     
-Them 1 file vao git:
+Add 1 file vao git:
     git add index.html
     
-Them tat ca cac file:
+Add all files:
     git add .
     
 Commit file:
@@ -40,13 +40,13 @@ Commit file:
 Revert to revision:
     git reset --hard f2e06abab2dff95f8eaaea2fd75b33cdbc66c080
     
-Tao new branch
+Create new branch
     git checkout -b 'newcategory'
     
-Xoa branch
+Delete branch
     git branch -d newcategory
     
-Quay ve master
+Back to master
     git checkout master
     git checkout newcategory
     
@@ -58,10 +58,10 @@ Push to github
     git push origin master
     
 ----
-View tat ca cac file: 
+View all files:
     ls -la
     ls -ls
     ls -al
-Xoa thu muc: 
+Delete dir: 
     rm -rf .git
     rm -rf index.html
